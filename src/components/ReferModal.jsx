@@ -19,7 +19,7 @@ const ReferModal = ({ isOpen, onClose }) => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5002/referrals",
+        "https://accredian-backend-6au9.onrender.com/referrals",
         formData, // Send form data
         { withCredentials: true }
       );
